@@ -1,7 +1,7 @@
 {
   description = "Elixir-Julia port communication via escript";
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixpks-unstable";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     flake-utils.url = "github:numtide/flake-utils";
   };
   outputs = { self, nixpkgs, flake-utils }:
